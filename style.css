@@ -1,0 +1,297 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-family: 'Noto Sans Linear B', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    color: black;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background-color: #ffffff;
+    position: relative;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 85%;
+    margin-left: 100px;
+}
+
+.logo {
+    width: 200px;
+    margin-top: 20px;
+}
+
+.logo:hover {
+    width: 250px;
+    transition: 1s;
+}
+
+.list {
+    width: 400px;
+}
+
+.listitem {
+    display: inline;
+    margin-right: 30px;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.link:hover {
+    color: #cc707e;
+    font-size: 30px;
+    transition: 1s;
+}
+
+.title {
+    margin-left: 8%;
+    margin-top: 13%;
+}
+
+.title_h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.title_h1 span {
+    color: #705b55;
+
+}
+
+.title_p {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.download {
+    background-color: black;
+    padding: 10px 5px;
+    margin-top: 20px;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.download:hover {
+    color: #ffffff;
+    font-size: 20px;
+    transition: 1s;
+}
+
+.images {
+    position: absolute;
+    width: 40%;
+    height: 80%;
+    bottom: 0px;
+    right: 30px;
+}
+
+.imgMain:hover {
+    width: 90%;
+    transition: 1s;
+}
+
+.imgMain {
+    width: 100%;
+}
+
+#about {
+    margin-top: 15%;
+    margin-left: 8%;
+}
+
+.headings {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.headings h1 {
+    font-size: 50px;
+}
+
+.headings h1:hover {
+    font-size: 60px;
+    transition: 1s;
+}
+
+.headings span {
+    font-size: 30px;
+    color: #705b55;
+}
+
+.about_contents {
+    display: grid;
+    grid-template-columns: 40% 50%;
+    padding-right: 20px;
+
+}
+
+.abt_img .image1 {
+    width: 80%;
+}
+
+.image1:hover {
+    width: 70%;
+    transition: 1s;
+}
+
+.abt_details p {
+    text-align: justify;
+    font-family: sans-serif;
+    line-height: 25px;
+}
+
+
+
+.heading2 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 30px;
+    margin-top: 100px;
+}
+
+.skillimage {
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    padding-right: 60px;
+    margin-top: 60px;
+    padding-left: 400px;
+    padding-bottom: 100px;
+}
+
+.skillimage .HTML {
+    width: 150px;
+    height: 100px;
+}
+
+.skillimage .HTML:hover {
+    width: 200px;
+    height: 150px;
+    transition: 1s;
+}
+
+.skillimage .CSS {
+    width: 150px;
+    height: 100px;
+}
+
+.skillimage .CSS:hover {
+    width: 200px;
+    height: 150px;
+    transition: 1s;
+}
+
+.skillimage .BS {
+    width: 150px;
+    height: 100px;
+}
+
+.skillimage .BS:hover {
+    width: 200px;
+    height: 150px;
+    transition: 1s;
+}
+
+.skillimage .ang {
+    width: 150px;
+    height: 100px;
+    padding-top: 40px;
+}
+
+.skillimage .ang:hover {
+    width: 200px;
+    height: 150px;
+    transition: 1s;
+}
+
+.skillimage .js {
+    width: 150px;
+    height: 100px;
+    padding-top: 40px;
+}
+
+.skillimage .js:hover {
+    width: 200px;
+    height: 150px;
+    transition: 1s;
+}
+
+.skillimage .py {
+    width: 150px;
+    height: 100px;
+    padding-top: 40px;
+}
+
+.skillimage .py:hover {
+    width: 200px;
+    height: 150px;
+    transition: 1s;
+}
+
+.skillimage .sql {
+    width: 150px;
+    height: 100px;
+    padding-top: 40px;
+}
+
+.skillimage .sql:hover {
+    width: 200px;
+    height: 150px;
+    transition: 1s;
+}
+
+.skillimage .njs {
+    width: 150px;
+    height: 100px;
+    padding-top: 40px;
+}
+
+.skillimage .njs:hover {
+    width: 200px;
+    height: 150px;
+    transition: 1s;
+}
+
+
+.skillimage .mdb {
+    width: 150px;
+    height: 100px;
+    padding-top: 40px;
+}
+
+.skillimage .mdb:hover {
+    width: 200px;
+    height: 150px;
+    transition: 1s;
+}
+.headings3 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 30px;
+    margin-top: 100px;
+}
+.my_skills{
+    margin-top: 50px;
+        display: grid;
+        grid-template-columns: 60% 50%;
+        padding-right: 20px;
+}
+.cnct_img .image3 {
+    width: 80%;
+}
+.abouts_info{
+    line-height: 100px;
+}
+.image3:hover{
+    width: 70%;
+    transition: 1s;
+
+}
