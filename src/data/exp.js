@@ -1,6 +1,6 @@
 export default [
     {
-      title: "MERN Stack Developer Trainee",
+      title: "MER(A)N Stack Developer Trainee",
       company: "Luminar Technolab Pvt.Ltd",
       year: "Oct,2023 - Present",
       imgUrl:"https://linktr.ee/og/image/luminartechnolab.jpg",
